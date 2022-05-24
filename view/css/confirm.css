@@ -1,0 +1,16 @@
+#page-title {
+  background-color: #42f593 !important;
+}
+
+#confirm-wrapper {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  width: 500px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}

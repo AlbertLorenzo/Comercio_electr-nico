@@ -1,0 +1,50 @@
+#products-wrapper {
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.product {
+  background-size: cover;
+  background-position: center center;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  padding: 15px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+#avg-product:hover {
+  background-image: url("../assets/avengers_01.jpg");
+  transition: 0.3s ease;
+  background-position: 0px 0px;
+}
+
+#spd-product:hover {
+  background-image: url("../assets/spiderman_02.jpg");
+  transition: 0.3s ease;
+  background-position: 0px 0px;
+}
+
+#dd-product:hover {
+  background-image: url("../assets/daredevil_03.jpg");
+  transition: 0.3s ease;
+  background-position: 0px 0px;
+}
+
+#avg-product:hover .avg {
+  display: none;
+}
+
+#spd-product:hover .spd {
+  display: none;
+}
+
+#dd-product:hover .dd {
+  display: none;
+}

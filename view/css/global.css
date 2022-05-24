@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Inconsolata:wght@700&display=swap");
+
+* {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+::selection {
+  background: #fce562 !important;
+}
+
+#page-title {
+  position: relative;
+  font-size: 3.5rem;
+  background-color: #fce562;
+  width: 500px;
+  left: 50%;
+  transform: translate(-50%);
+}
